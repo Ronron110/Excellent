@@ -39,6 +39,7 @@ if ($data["userid"]== $_POST["userid"] && $data["password"]==$_POST["password"])
 	echo '<input type="hidden" name="userid" value="'.$_POST["userid"].'" />';
 
 	echo '<input type="submit" name="submit" value="個人情報照会" />';
+	echo '<input id="reserve" type="submit" name="submit" value="予約情報照会" /><br />';
 	echo '</li>';
 
 	echo '<li>';
